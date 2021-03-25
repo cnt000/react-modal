@@ -21,7 +21,7 @@ export const useModal = <P>(component: FunctionComponent<P>) => {
   return { showModal, hideModal }
 }
 
-export const useModalActios = () => {
+export const useModalActions = () => {
   const context = useContext(ModalContext)
   return {
     hideModal: () => {
